@@ -2,6 +2,9 @@ package org.launchcode;
 
 import java.util.HashSet;
 
+/* Islande Derazin
+ * CISC 3130, HW # 4
+ */
 
 
 
@@ -47,9 +50,9 @@ private enum Genre {
     ACTION, ADVENTURE, ANIMATION, COMEDY, DRAMA, HORROR, ROMANCE,
     SCIFI, THRILLER;
 
-    private int value = 1+ordinal();
+    private int value = 1 + ordinal();
 
-    /**
+    /*
      * Returns the value of a particular genre
      * @return Genre's value
      */
